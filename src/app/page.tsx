@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -207,7 +207,6 @@ export default function LandingPage() {
           tag="Help & Support"
           textboxLayout="default"
           animationType="smooth"
-          showCard={true}
           faqs={[
             {
               id: "1",
